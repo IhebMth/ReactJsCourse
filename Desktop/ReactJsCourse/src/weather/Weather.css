@@ -1,0 +1,96 @@
+
+
+p
+{
+    font-size: 1.6rem;
+}
+
+.weather h1
+{
+    
+    font-size: 6rem;
+}
+
+.weather
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(0,0,0,0.4);
+    color: #ffff;
+    
+}
+
+.weather::before
+{
+    content: '';
+    background: url('../assets/sunset.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.weather .search
+{
+    text-align: center;
+    padding: 1rem;   
+}
+
+.weather  input
+{
+    padding: .7rem 1.5rem;
+    font-size: 1.2rem ;
+    border-radius: 25px;
+    border:  1px solid rgba(255, 255, 255, O.8); 
+    background: rgba(255, 255, 255, .1);
+    color: white;
+}
+.container
+{
+    max-width: 700px;
+    height: 450px;
+    margin: auto;
+    padding: 0 1rem;
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.weather .top
+{
+    width: 100%;
+    margin: 1rem auto;
+}
+
+.weather .description
+{
+    position: relative;
+    right: -90%;
+    transform-origin:0 0 ;
+    transform:  rotate(269deg);
+}
+
+.weather .bottom
+{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: rgba(255,255,255, 0.2);
+    margin-bottom: 40px;
+}
+
+.bold 
+{
+    font-weight:700;
+}
+

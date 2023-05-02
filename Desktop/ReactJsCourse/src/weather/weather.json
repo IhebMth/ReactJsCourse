@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": 10.0982,
+        "lat": 33.8815
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 291.13,
+        "feels_like": 291.44,
+        "temp_min": 291.13,
+        "temp_max": 291.13,
+        "pressure": 1015,
+        "humidity": 94
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 4.12,
+        "deg": 90
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1682977023,
+    "sys": {
+        "type": 1,
+        "id": 1199,
+        "country": "TN",
+        "sunrise": 1682915463,
+        "sunset": 1682964136
+    },
+    "timezone": 3600,
+    "id": 2468369,
+    "name": "Gabès",
+    "cod": 200
+}

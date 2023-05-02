@@ -1,0 +1,14 @@
+React-dom : changes react component into a html
+react-router-dom =  responsible for single page app
+
+create react application commands !! :
+
+1- npm install -g create-react-app
+2-create-react-app {appName(miniscule)}
+ 3-cd folder 
+4- npm start
+
+   
+
+   *** To use router
+   1- npm i react-router react-router-dom
